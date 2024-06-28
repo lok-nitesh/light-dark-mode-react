@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+}
+.light-card {
+  background-color: white;
+  border: black 2px solid;
+  border-radius: 10px;
+}
+.light-heading {
+  color: white;
+  font-size: 20px;
+}
+.dark-heading {
+  font-size: 20px;
+  color: black;
+}
+.dark-card {
+  background-color: black;
+  border: white 2px solid;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50vh;
+  padding: 5px;
+}
+.light-button {
+  background-color: white;
+  border: black solid 2px;
+  width: 50%;
+  color: black;
+  padding: 5px;
+}
+.dark-button {
+  background-color: black;
+  border: white solid 2px;
+  width: 50%;
+  color: white;
+  padding: 5px;
+}
